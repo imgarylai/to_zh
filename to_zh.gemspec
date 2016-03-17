@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'to_zh_num/version'
+require 'to_zh/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "to_zh_num"
-  spec.version       = ToZhNum::VERSION
+  spec.name          = "to_zh"
+  spec.version       = ToZh::VERSION
   spec.authors       = ["Gary"]
   spec.email         = ["gary@gary-lai.com"]
 

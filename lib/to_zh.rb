@@ -1,13 +1,13 @@
-require "to_zh_num/version"
+require "to_zh/version"
 
-module ToZhNum
+module ToZh
   module InstanceMethods
-    def to_zh_num
-      ToZhNum.to_zh_num(self)
+    def to_zh
+      ToZh.to_zh(self)
     end
   end
 
-  def self.to_zh_num int
+  def self.to_zh int
     upper_zh_num = ['零', '壹', '貳', '參', '肆', '伍', '陸', '柒', '捌', '玖']
     decimal_unit = ['', '拾', '佰', '仟']
     thousand_unit = ['', '萬', '億', '兆', '京', '垓', '秭', '穰', '溝', '澗', '正', '載', '極']
@@ -15,4 +15,4 @@ module ToZhNum
   end
 end
 
-Integer.send :include, ToZhNum::InstanceMethods
+Integer.send :include, ToZh::InstanceMethods

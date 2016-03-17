@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in to_zh_num.gemspec
+# Specify your gem's dependencies in to_zh.gemspec
 gemspec
