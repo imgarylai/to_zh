@@ -9,8 +9,12 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Gary"]
   spec.email         = ["gary@gary-lai.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Translates Arabic numbers to upper-traditional Chinese numbers and lower-traditional Chinese numbers.}
+  spec.description   = %q{
+    ToZh can translate Arabic numbers to upper-traditional Chinese numbers and/or to lower-traditional Chinese numbers.
+    Example: "1234567890" -> "壹拾貳億叁仟肆佰伍拾陸萬柒仟捌佰玖拾"
+    or
+    Example: "1234567890" -> "一十二億三千四百五十六萬七千八百九十"}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
