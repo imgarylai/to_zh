@@ -1,8 +1,15 @@
 # ToZh
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/to_zh`. To experiment with that code, run `bin/console` for an interactive prompt.
+## Introduction
 
-TODO: Delete this and the text above, and describe your gem
+ToZh can translate Arabic numbers to upper-traditional Chinese numbers and/or to lower-traditional Chinese numbers.
+
+Example:
+
+```
+1234567890.to_zh
+> "壹拾貳億叁仟肆佰伍拾陸萬柒仟捌佰玖拾"
+```
 
 ## Installation
 
