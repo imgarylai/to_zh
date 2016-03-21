@@ -4,11 +4,12 @@
 
 ToZh can translate Arabic numbers to upper-traditional Chinese numbers and/or to lower-traditional Chinese numbers.
 
-Example: "1234567890" -> "壹拾貳億叁仟肆佰伍拾陸萬柒仟捌佰玖拾"
+Example:
 
-or
-
-Example: "1234567890" -> "一十二億三千四百五十六萬七千八百九十"
+```
+1234567890.to_zh
+> "壹拾貳億叁仟肆佰伍拾陸萬柒仟捌佰玖拾"
+```
 
 ## Installation
 

@@ -10,12 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["gary@gary-lai.com"]
 
   spec.summary       = %q{Translates Arabic numbers to upper-traditional Chinese numbers and lower-traditional Chinese numbers.}
-  spec.description   = %q{
-    ToZh can translate Arabic numbers to upper-traditional Chinese numbers and/or to lower-traditional Chinese numbers.
-    Example: "1234567890" -> "壹拾貳億叁仟肆佰伍拾陸萬柒仟捌佰玖拾"
-    or
-    Example: "1234567890" -> "一十二億三千四百五十六萬七千八百九十"}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.description   = %q{ToZh can translate Arabic numbers to upper-traditional Chinese numbers and/or to lower-traditional Chinese numbers.}
+  spec.homepage      = "https://github.com/imgarylai/to_zh"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
